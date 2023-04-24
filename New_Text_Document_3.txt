@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="end">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bethany Pie Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="pies.html" class="nav-link">Pies</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <main class="d-flex flex-wrap align-items-start justify-content-start">
+            <aside class="flex-shrink col-2 mt-5 p-2">
+                <a href="index.html">
+                    <img src="images/bethanylogo.png" class="img-fluid" alt="Bethany Pie Shop">
+                </a>
+            </aside>
+    <article>
+        <header>
+            <h1>Apple Pie</h1>
+        </header>
+        <div class="product-info-container">
+            <div class="img-container">
+                <img src="images/apple-pie.png" alt="Apple Pie">
+            </div>
+            <div class="buy-container">
+                <div class="price-container">
+                    <p class="old-price">$3.50</p>
+                    <p class="price">$3.00</p>
+                </div>
+                <div class="order-container">
+                    <a href="#">
+                        <button class="order-button">
+                            Add to cart
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="description-container">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Ipsa accusantium nemo officia voluptatum, consequuntur labore. 
+                Libero similique delectus harum alias nemo eos? Ea impedit inventore vero esse voluptate ipsa pariatur?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Officia dolores accusamus officiis, totam reprehenderit voluptates dignissimos mollitia sed nesciunt ipsum. 
+                Corporis laudantium corrupti illum possimus? Ipsum expedita porro perferendis doloremque.</p>
+            </div>
+    </article>    
+    <section id="content">
+        <h1>Contact Us</h1>
+        <form action="">
+            <div class="form-group">
+                <label for=""> Your name:</label>
+                <input type="text" name="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for=""> Your email:</label>
+                <input type="text" name="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for=""> Your phone:</label>
+                <input type="text" name="phone" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for=""> Subject:</label>
+                <input type="text" name="Subject" class="form-control" required>
+            </div>
+        </form>
+        <div class="form-group">
+            <label for=""> Message:</label>
+            <textarea name="message" class="form-control form-textarea">
+
+           </textarea>
+           <div class="form-group">
+            <input type="text" name="email" class="form-button" value="Изпрати">
+        </div>
+        </div>
+    </section>   
